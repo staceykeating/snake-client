@@ -20,7 +20,13 @@ conn.on('connect', function(data) {
 conn.on('connect', () => {
   conn.write("Name: SAK")
 });
-
+// conn.on('connect', () => {
+//  conn.write("Move: up")
+// });
+// conn.on('connect', () => {
+//   setInterval(function() {
+//   conn.write("Move: left"); }, 3000);
+//  });
   return conn;
 }
 
