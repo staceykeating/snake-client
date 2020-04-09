@@ -14,6 +14,9 @@ const handleUserInput = function (data) {
   if (data === 	"\u0064") {
     connection.write('Move: right');
   }
+  if (data === "\u0071") {
+    connection.write('Say: Yas');
+  }
   if (data === '\u0003') {
     stdin.exit();
   }
